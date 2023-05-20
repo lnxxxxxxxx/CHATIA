@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenas", "que tal"],
+      "responses": ["Hola", "Hola, que puedo hacer por ti", "Hola, que tal"]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como te llamas", "cual es tu nombre", "dime tu nombre"],
+      "responses": ["Mi nombre es chatpchi", "Mi creador me denomino chatpchi"]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["Me puedes ayudar", "necesito ayuda", "me podrias ayudar", "tengo una duda"],
+      "responses": ["Encantado, cual es tu consulta", "Por supuesto, en que puedo ayudarte?", "Describime tu problema y vere si puedo ayudarte"]
+    },
+    {
+      "tag": "desconocido",
+      "patterns": ["*"],
+      "responses": ["Lo siento, pero no puedo ayudarte con eso."]
+    }
+  ]
+}
